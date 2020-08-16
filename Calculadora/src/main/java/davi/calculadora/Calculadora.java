@@ -1,12 +1,15 @@
 package davi.calculadora;
 
 public class Calculadora{
+    //atributos
     public float registrador;
 	
+    //construtor
     public Calculadora() {
 	this.registrador = 0;
     }
-	
+    
+    //metodos
     public void add(float valor) {
 	this.registrador += valor;
     }
